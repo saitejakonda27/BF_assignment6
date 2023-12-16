@@ -1,6 +1,6 @@
 ---
 title: "ARIMA"
-author: "shivangsingh.manhas@rutgers.edu"
+author: "srk195@scarletmail.rutgers.edu"
 date: "11/22/2023"
 output: html_document
 ---
@@ -11,7 +11,7 @@ library(fpp2)
 library(forecast)
 library(readxl)
 #Importing dataset
-AirPassengers <- read_excel("/Users/shivang/Documents/AirPassengers_1.xlsx")
+AirPassengers <- read_excel("/Users/saite/Documents/AirPassengers_1.xlsx")
 View(AirPassengers)
 AirpassTS <- ts(AirPassengers$Passengers)
 plot(AirpassTS)
